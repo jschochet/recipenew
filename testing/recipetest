@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width-device-width">
+  </head>
+  <body>
+    <details>
+      <summary>Ingredients2</summary>
+        <p>The quick brown fox jumped</p>
+      </details>
+
+      <h2>Ingredients</h2>
+      <table>
+          <tr>
+              <td>1.1 lbs of sliced or cubed skinless,
+              <hr>boneless chicken</hr></td>
+              <td>½ tbsp olive oil</td>
+          </tr>
+          <tr>
+              <td>6 cups chicken broth</td>
+              <td>¼ cup medium onion, diced</td>
+          </tr>
+          <tr>
+              <td>3-4 cups water</td>
+              <td>2 celery ribs, sliced</td>
+          </tr>
+          <tr>
+              <td>¼ cup carrots, sliced</td>
+              <td>½ tsp kosher salt</td>
+          </tr>
+          <tr>
+              <td>¼ tsp black or white pepper</td>
+              <td>6 oz wide egg noodles or other type of noodles</td>
+          </tr>
+          <tr>
+              <td>A pinch of fresh or dried thyme (optional)</td>
+          </tr>
+      </table>
