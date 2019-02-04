@@ -1,0 +1,32 @@
+*//*selector {
+  property: value;
+  property: value;
+  property: value;
+}
+*/
+body
+  {
+    background-color: #ff9;
+  }
+
+p {
+   color: red;
+ }
+
+p.byline{
+   color:blue;
+ }
+
+#ingredients{
+
+ }
+
+:hover{
+  background:red;
+}
+:focus{
+  background:blue;
+}
+:active{
+  background:green;
+}
