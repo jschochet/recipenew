@@ -92,6 +92,9 @@ html {
 }
 
 /* 1em = about 16 pixels*/
+html {
+  font: 100%/1.15 sans-serif /*font size/line height typeface*/
+}
 
 body,
 figure {
@@ -110,6 +113,11 @@ ol,
 ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.15em; /*default list value*/
 }
 
 dd{
