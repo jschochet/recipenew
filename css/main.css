@@ -22,11 +22,15 @@ p.byline{
  }
 
 :hover{
-  background:red;
+  background:indigo;
 }
 :focus{
   background:blue;
 }
 :active{
   background:green;
+}
+
+figure:nth-child(odd){
+  outline: 5px solid red;
 }
