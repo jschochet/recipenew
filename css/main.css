@@ -1,4 +1,4 @@
-*//*selector {
+/*--selector {
   property: value;
   property: value;
   property: value;
@@ -36,7 +36,6 @@ figure:nth-child(even){
 }
 
 <button class="green-button">Send Message</button>
-*/*/
 
 div {
   height: 200px;
@@ -63,4 +62,8 @@ div {
 
 .transform:hover {
   transform: skew(7deg, 15deg);
+} --*/
+body{
+  margin: 0;
+  margin: 5em 0 0 2em; /*--top, right, bottom, left--*/
 }
