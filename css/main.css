@@ -126,14 +126,14 @@ dd{
 
 img {
   width: auto;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
 body {
   font-family: Georgia, "Times New Roman", serif; /*use websafe fonts*/
-  max-width: 48em;
-  padding: 1.5em;
+  max-width: 48rem;
+  padding: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
@@ -142,26 +142,38 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Tahoma, sans-serif;
+  font-family: Georgia, serif;
 }
 
 h1 {
-  font-size: 2.875em;
-  line-height: 1.3em;
+  font-size: 2.3em;
+  line-height: .8em;
   text-transform: uppercase;
 }
 
+figcaption {
+  text-align: right;
+}
+
 p {
+  line-height: 1.25;
   margin-top: 1em;
 }
 
 li {
-  margin-top: .5em
+  margin-top: .5em;
 }
 
 section,
 ul,
 ol,
 dd {
-  padding-top: 1em
+  padding-top: 1em;
 }
+
+/*--breakpoint for wider screens--*/
+
+@media (min-width: 48em) {
+  body {
+    font-size: 150%;
+  }
