@@ -93,7 +93,7 @@ html {
 
 /* 1em = about 16 pixels*/
 html {
-  font: 100%/1.15 serif; /*font size/line height typeface*/
+  font: 90%/1.15 serif; /*font size/line height typeface*/
 }
 
 body,
@@ -120,9 +120,10 @@ ul {
   padding-left: 1.15em; /*default list value*/
 }
 
-dd{
+dd {
   margin-left: 0;
 }
+
 
 img {
   width: auto;
@@ -146,7 +147,7 @@ h3 {
 }
 
 h1 {
-  font-size: 2.3em;
+  font-size: 2em;
   line-height: .8em;
   text-transform: uppercase;
 }
@@ -171,9 +172,15 @@ dd {
   padding-top: 1em;
 }
 
+div2 {
+    background-color: lemonchiffon;
+  }
+
+
 /*--breakpoint for wider screens--*/
 
 @media (min-width: 48em) {
   body {
     font-size: 150%;
   }
+}
