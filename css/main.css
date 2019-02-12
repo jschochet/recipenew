@@ -82,13 +82,12 @@ html {
   background-color: #fff;
 }*/
 
-/*main {
-  background-color: #ccc;
-  padding: 2em; /*positive value*/
-/*border: 3px dashed #000; /*positive value*/
-/*border-top: 1em solid #f00;
-/* margin: 15em; /*positive or negative value*/
-/*  margin-top: 1em
+.list{
+  background-color: #FFFACD;
+  padding: 12em; /*positive value*/
+  border: 3px dashed #DEB887; /*positive value*/
+  margin: 2em; /*positive or negative value*/
+  margin-top: 1em
 }
 
 /* 1em = about 16 pixels*/
