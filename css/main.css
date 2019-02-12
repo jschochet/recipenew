@@ -83,16 +83,18 @@ html {
 }*/
 
 .list{
-  background-color: #FFFACD;
-  padding: 12em; /*positive value*/
+  background-color: #FFFFFF;
+  padding: 2em; /*positive value*/
   border: 3px dashed #DEB887; /*positive value*/
-  margin: 2em; /*positive or negative value*/
+  margin: 0em; /*positive or negative value*/
   margin-top: 1em
+  text-align: center;
 }
 
 /* 1em = about 16 pixels*/
 html {
   font: 90%/1.15 serif; /*font size/line height typeface*/
+  background-color: #FFFACD;
 }
 
 body,
@@ -116,7 +118,7 @@ ul {
 
 ol,
 ul {
-  padding-left: 1.15em; /*default list value*/
+  padding-left: 0em; /*default list value*/
 }
 
 dd {
@@ -132,8 +134,9 @@ img {
 
 body {
   font-family: Georgia, "Times New Roman", serif; /*use websafe fonts*/
+  color: #180D01;
   max-width: 48rem;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
   /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
@@ -143,6 +146,8 @@ h1,
 h2,
 h3 {
   font-family: Georgia, serif;
+  color: #180D01;
+  text-align: center
 }
 
 h1 {
@@ -171,15 +176,11 @@ dd {
   padding-top: 1em;
 }
 
-div2 {
-    background-color: lemonchiffon;
-  }
-
 
 /*--breakpoint for wider screens--*/
 
 @media (min-width: 48em) {
   body {
-    font-size: 150%;
+    font-size: 100%;
   }
 }
