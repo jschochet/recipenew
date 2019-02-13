@@ -83,20 +83,13 @@ html {
 }*/
 
 .stuff,
-.time {
+.time,
+.list {
   background-color: #FFFFFF;
   padding: 2em; /*positive value*/
   border: 3px dashed #DEB887; /*positive value*/
   margin: 1.5em; /*positive or negative value*/
   margin-top: 1em;
-}
-
-.list {
-  background-color: #FFFFFF;
-  padding: 2em; /*positive value*/
-  border: 3px dashed #DEB887; /*positive value*/
-  margin-top: 1em;
-  text-align: center
 }
 
 /* 1em = about 16 pixels*/
@@ -105,7 +98,6 @@ html {
   background-color: #FFFACD;
 }
 
-body,
 figure {
   margin: 0;
 }
@@ -121,13 +113,14 @@ p {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   padding-left: 1em; /*default list value*/
 }
 
 img {
   width: auto;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
