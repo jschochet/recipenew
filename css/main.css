@@ -82,17 +82,49 @@ html {
   background-color: #fff;
 }*/
 
-.stuff,
-.time,
-.list {
+.stuff {
   background-color: #FFFFFF;
-  padding: 2em; /*positive value*/
-  border: 3px dashed #DEB887; /*positive value*/
   margin: 1.5em; /*positive or negative value*/
   margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  border: 3px dashed #DEB887;
+  padding: 20px;
+  width: 600px;
+  height: 350px;
+}
+
+.list {
+  background-color: #FFFFFF;
+  margin: 1.5em; /*positive or negative value*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  border: 3px dashed #DEB887;
+  padding: 20px;
+  width: 600px;
+  height: 325px;
+}
+
+.time {
+  background-color: #FFFFFF;
+  margin: 1.5em; /*positive or negative value*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  border: 3px dashed #DEB887;
+  padding: 20px;
+  width: 600px;
+  height: 125px;
 }
 
 h1 {
+  font-size: 2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  color: #FF7F50;
+  text-align: center;
   background-color: #FFFFFF;
   padding: 2em; /*positive value*/
   margin: 1.5em; /*positive or negative value*/
@@ -106,12 +138,11 @@ html {
   background-color: #FFFACD;
 }
 
-figure {
-  margin: 0;
+ul {
+  padding-top: 1em;
+  padding-left: 1em
 }
 
-
-ul,
 ol {
   padding-left: 1em; /*default list value*/
 }
@@ -135,18 +166,12 @@ body {
   /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
 }
 
-h1,
+
 h2,
 h3 {
   font-family: Georgia, serif;
   color: #180D01;
   text-align: center
-}
-
-h1 {
-  font-size: 2em;
-  line-height: .8em;
-  text-transform: uppercase;
 }
 
 figcaption {
@@ -160,10 +185,6 @@ p {
 
 li {
   margin-top: .5em;
-}
-
-ul {
-  padding-top: 1em;
 }
 
 dd,
