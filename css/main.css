@@ -81,6 +81,10 @@ are sections*/
 html {
   background-color: #fff;
 }*/
+{
+  margin: 0;
+  padding: 0;
+}
 
 .stuff,
 .list {
@@ -94,6 +98,16 @@ html {
   height: 350px
 }
 
+.stuff:after {
+  background-color:#FEFFE5;
+  position:absolute;
+  content:"";
+  left:0;
+  right:0;
+  height:15px;
+  top:15px;
+}
+
 .time,
 .center,
 h1 {
@@ -105,13 +119,13 @@ h1 {
   width: 600px;
   height: 125px
 }
-
-h1 {
+/*h1 {
   padding: 2em; /*positive value*/
-  margin: 1.5em; /*positive or negative value*/
-  margin-top: 1em;
-  border: 3px solid #FF7F50
-}
+  /*margin: 1.5em; /*positive or negative value*/
+  /*margin-top: 1em;*/
+  /*border: 3px solid #FF7F50}*/
+
+
 .center {
   display: block;
   margin-left: auto;
