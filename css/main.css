@@ -88,6 +88,14 @@ html {
   padding: 0;
 }
 
+.step, h2 {
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
 {
   background-color: #FFFFFF;
   margin: 1.5em;
