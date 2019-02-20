@@ -81,10 +81,56 @@ are sections*/
 html {
   background-color: #fff;
 }*/
+
+
 {
   margin: 0;
   padding: 0;
 }
+
+.hdr .page-title {
+    font-size: 2.375em;
+    margin-bottom: 0.625rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    color: #FF7F50;
+    text-align: left
+}
+
+h1 {
+  margin: 0em 0em 0.625em 0em
+}
+
+.meta-item {
+  display: inline-block;
+  padding: 0 0.75em 0 0.625em
+}
+
+li {
+  list-style: none;
+  list-style-image: none;
+  text-align: center;
+  box-sizing: border-box
+}
+
+.meta-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  margin-right: .33333em
+}
+
+
+/*h1 {
+  font-size: 2em;
+  line-height: .8em;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  color: #FF7F50;
+  text-align: center
+}*/
 
 .stuff,
 .list {
@@ -94,7 +140,7 @@ html {
   margin-bottom: 1em;
   border-radius: 25px;
   padding: 20px;
-  width: 600px;
+  width: 1000px;
   height: 350px
 }
 
@@ -108,14 +154,13 @@ html {
   top:15px;
 }*/
 
-.time,
-.center {
+.begin {
   background-color: #FFFFFF;
   margin: 1.5em;
   margin-bottom: 1em;
   border-radius: 25px;
   padding: 20px;
-  width: 600px;
+  width: 1000px;
   height: 125px
 }
 
@@ -127,7 +172,7 @@ html {
   /*border: 3px solid #FF7F50}*/
 
 
-.center {
+/*.center {
   display: block;
   margin: 1.5em;
   margin-left: auto;
@@ -135,16 +180,8 @@ html {
   margin-top: 1.5em;
   width: 75%;
   height: 75%
-}
+}*/
 
-h1 {
-  font-size: 2em;
-  line-height: .8em;
-  text-transform: uppercase;
-  font-family: Georgia, serif;
-  color: #FF7F50;
-  text-align: center
-}
 
 /* 1em = about 16 pixels*/
 html {
@@ -176,7 +213,7 @@ h2,
 h3 {
   font-family: Georgia, serif;
   color: #FF7F50;
-  text-align: center
+  text-align: left
 }
 
 figcaption {
