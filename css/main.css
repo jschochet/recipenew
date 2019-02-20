@@ -4,15 +4,6 @@
   property: value;
 }
 
-body
-  {
-    background-color: indigo;
-  }
-
-p {
-   color: green;
- }
-
 p.byline{
    color:blue;
  }
@@ -82,33 +73,54 @@ html {
   background-color: #fff;
 }*/
 
+html {
+  font: 100%/1.15 serif; /* 1./2. */
+  -webkit-text-size-adjust: 100%; /* 3. */
+  background-color: #33bfc7
+}
 
-{
+body,
+figure {
   margin: 0;
-  padding: 0;
 }
 
-.step, h2 {
-  border-radius: 25px;
+body {
+  font-family: Georgia, "Times New Roman", serif; /*use websafe fonts*/
+  color: #180D01;
+  max-width: 48rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
+}
+
+h1 {
+  border-bottom: 2px solid #e2e2e3;
+  padding-bottom: .25em;
+  text-align: center;
+  margin: 0em 0em 0.625em 0em
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
   background-color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+  padding: 2em;
+  border: .3em;
+  border-radius: 15px 50px
 }
 
-{
-  background-color: #FFFFFF;
-  margin: 1.5em;
-  margin-bottom: 1em;
-  border-radius: 25px;
-  padding: 20px;
-  width: 1000px;
-  height: 125px auto
-}
-
-.hdr .page-title {
-    font-size: 2.375em;
-    margin-bottom: 0.625rem;
+.page-title {
+    font-size: 2em;
+    margin-bottom: 5rem;
     line-height: 1em;
     text-transform: uppercase;
     font-family: Georgia, serif;
@@ -117,49 +129,54 @@ html {
     text-align: left
 }
 
-h1 {
-  margin: 0em 0em 0.625em 0em
+dl {
+  margin-top: 2em;
+  margin-bottom: 2em
 }
+
+dt {
+    font-size: 1em;
+    margin-bottom: 1rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    color: #FF7F50;
+    text-align: left
+}
+
+dd {
+  margin-bottom: 1em;
+  margin-top: 1em
+}
+
 
 .meta-item {
   display: inline-block;
   padding: 0 0.75em 0 0.625em
 }
 
-li {
+/*li {
   list-style: none;
     list-style-position: outside;
   list-style-image: none;
   box-sizing: border-box
+}*/
+
+.page-section {
+  display: block;
+  margin-bottom: 1.5625em
 }
 
-.meta-title {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  margin-right: .33333em
+@media (min-width: 48em) {
+  body {
+    font-size: 100%;
+  }
 }
 
-.node-type-recipe .unify-directions-ingredients
-section {
-  display: block
-}
-
-.node-type-recipe .page-section-ingredients {
+.ingredients {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%
-}
-
-.page-section {
-margin-bottom: 1.5625em
-}
-
-.page-section-title {
-  font-size: 1.875em;
-  clear: both;
-  border-bottom: 1px solid #e2e2e3;
-  padding-bottom: .25em
 }
 
 h2 {
@@ -169,7 +186,11 @@ h2 {
   line-height: 1;
   font-family: Georgia, serif;
   color: #FF7F50;
-  text-align: left
+  text-align: left;
+  font-size: 1.875em;
+  clear: both;
+  border-bottom: 2px solid #e2e2e3;
+  padding-bottom: .25em
 }
 
 .page-section-group {
@@ -181,17 +202,24 @@ h2 {
 ul {
   padding: 0 0 0 0;
   margin: 0 0;
-  box-sizing: border-box
 }
 
-.checklist-item {
+ol {
+  padding-left: 1em; /*default list value*/
+}
+
+figcaption {
+  text-align: right;
+}
+
+.ingredient-checklist-item {
   list-style-type: circle;
-  font-size: 1.0625em;
-  margin: 0 0 0.5em 1.25em
+  font-size: 1em;
+  font-weight: 100px;
+  margin: 0 0 .5em 1.25em
 }
 
 .step {
-  list-style-type: none;
   margin-left: 0;
   margin-bottom: 1.375em
 }
@@ -200,6 +228,8 @@ p {
   margin: 1em 0;
   box-sizing: border-box
 }
+
+
 /*h1 {
   font-size: 2em;
   line-height: .8em;
@@ -261,34 +291,18 @@ p {
 
 
 /* 1em = about 16 pixels*/
-html {
-  font: 90%/1.15 serif; /*font size/line height typeface*/
-  background-color: #33bfc7;
-}
+/*font size/line height typeface*/
+
 
 /*ul {
   padding-top: 1em;
   padding-left: 1em
 }*/
 
-ol {
-  padding-left: 1em; /*default list value*/
-}
-
-body {
-  font-family: Georgia, "Times New Roman", serif; /*use websafe fonts*/
-  color: #180D01;
-  max-width: 48rem;
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
-}
 
 
-figcaption {
-  text-align: right;
-}
+
+
 
 /*p {
   line-height: 1.25;
@@ -305,9 +319,3 @@ dt {
 }*/
 
 /*--breakpoint for wider screens--*/
-
-@media (min-width: 48em) {
-  body {
-    font-size: 100%;
-  }
-}
