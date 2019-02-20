@@ -88,6 +88,16 @@ html {
   padding: 0;
 }
 
+{
+  background-color: #FFFFFF;
+  margin: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1000px;
+  height: 125px auto
+}
+
 .hdr .page-title {
     font-size: 2.375em;
     margin-bottom: 0.625rem;
@@ -148,7 +158,10 @@ h2 {
   margin: 0em 0em 0.625em 0em;
   text-transform: uppercase;
   font-weight: 500;
-  line-height: 1
+  line-height: 1;
+  font-family: Georgia, serif;
+  color: #FF7F50;
+  text-align: left
 }
 
 .page-section-group {
@@ -210,7 +223,7 @@ p {
   top:15px;
 }*/
 
-.begin {
+/*.begin {
   background-color: #FFFFFF;
   margin: 1.5em;
   margin-bottom: 1em;
@@ -218,7 +231,7 @@ p {
   padding: 20px;
   width: 1000px;
   height: 125px
-}
+}*/
 
 
 /*h1 {
@@ -265,30 +278,23 @@ body {
 }
 
 
-h2,
-h3 {
-  font-family: Georgia, serif;
-  color: #FF7F50;
-  text-align: left
-}
-
 figcaption {
   text-align: right;
 }
 
-p {
+/*p {
   line-height: 1.25;
   margin-top: 1em;
 }
 
 li {
   margin-top: .5em;
-}
+}*/
 
-dd,
+/*dd,
 dt {
     padding-top: 1em;
-}
+}*/
 
 /*--breakpoint for wider screens--*/
 
