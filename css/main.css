@@ -42,14 +42,14 @@ h1 {
 .ingredient-checklist-item {
   list-style-type: circle;
   font-size: 1em;
-  font-weight: 100px;
+  font-weight: 100;
   margin: 0 0 .5em 1.25em
 }
 
 .ingredient-checklist-item1 {
   list-style-type: circle;
   font-size: 1em;
-  font-weight: 100px;
+  font-weight: 100;
   margin: 0 0 .5em 1.25em;
   padding-bottom: 1.5em
 }
