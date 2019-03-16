@@ -35,7 +35,7 @@ h1 {
     text-transform: uppercase;
     font-family: Georgia, serif;
     font-weight: 700;
-    color: #FF7F50;
+    color: #FF6127;
     text-align: left
 }
 
@@ -67,7 +67,6 @@ small {
 img {
   max-width: 100%;
   border-radius: 25px 60px;
-  background: #276b9b;
   padding: 0px;
   width: auto;
   height: auto
@@ -92,7 +91,7 @@ dt {
     line-height: 1em;
     text-transform: uppercase;
     font-family: Georgia, serif;
-    color: #FF7F50;
+    color: #FF6127;
     text-align: left
 }
 
@@ -123,7 +122,7 @@ h2, h3 {
   font-weight: 500;
   line-height: 1;
   font-family: Georgia, serif;
-  color: #FF7F50;
+  color: #FF6127;
   text-align: left;
   font-size: 1.875em;
   clear: both;
@@ -172,28 +171,6 @@ p {
   text-align: center
 }*/
 
-/*.stuff,
-.list {
-  background-color: #FFFFFF;
-  margin: 1.5em; /*positive or negative value*/
-/*  margin-top: 1em;
-  margin-bottom: 1em;
-  border-radius: 25px;
-  padding: 20px;
-  width: 1000px;
-  height: 350px } */
-
-
-/*.stuff:after {
-  background-color:#FEFFE5;
-  position:absolute;
-  content:"";
-  left:0;
-  right:0;
-  height:15px;
-  top:15px;
-}*/
-
 /*.begin {
   background-color: #FFFFFF;
   margin: 1.5em;
@@ -232,23 +209,5 @@ p {
   padding-left: 1em
 }*/
 
-
-
-
-
-
-/*p {
-  line-height: 1.25;
-  margin-top: 1em;
-}
-
-li {
-  margin-top: .5em;
-}*/
-
-/*dd,
-dt {
-    padding-top: 1em;
-}*/
 
 /*--breakpoint for wider screens--*/
