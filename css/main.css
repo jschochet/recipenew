@@ -1,7 +1,7 @@
 html {
   font: 100%/1.15 sans-serif; /* 1./2. */
   -webkit-text-size-adjust: 50%; /* 3. */
-  background-color: #d8e3ea
+  background-image: linear-gradient(to right, #9ebacc, #ebf1f4);
 }
 
 body,
@@ -27,7 +27,7 @@ h1 {
 .page-title {
     font-size: 1.95em;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     line-height: 1em;
     text-transform: uppercase;
     font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
@@ -108,7 +108,6 @@ dd {
 }
 
 .page-section-title {
-  /*margin: 0em 0em 0.625em 0em;*/
   margin-top: 0em;
   text-transform: uppercase;
   line-height: 1;
@@ -117,12 +116,10 @@ dd {
   text-align: left;
   font-size: 1.3em;
   clear: both;
-  padding-bottom: .25em
 }
 
 ul {
   padding: 0 0 0 0;
-  margin-bottom: 1.5em;
 }
 
 ol {
