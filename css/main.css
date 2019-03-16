@@ -1,9 +1,7 @@
-
-
 html {
-  font: 100%/1.15 serif; /* 1./2. */
-  -webkit-text-size-adjust: 100%; /* 3. */
-  background-color: #33bfc7
+  font: 100%/1.15 sans-serif; /* 1./2. */
+  -webkit-text-size-adjust: 50%; /* 3. */
+  background-color: #d8e3ea
 }
 
 body,
@@ -12,31 +10,29 @@ figure {
 }
 
 body {
-  font-family: Georgia, "Times New Roman", serif; /*use websafe fonts*/
-  color: #180D01;
+  font-family: Verdana, Arial, "Trebuchet MS", sans-serif; /*use websafe fonts*/
+  color: #12232d;
   max-width: 48rem;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
-  /*font-family: Tahoma, Verdana, Arial, "Trebuchet MS", sans-serif;*/
+
 }
 
 h1 {
-  border-bottom: 2px solid #e2e2e3;
-  padding-bottom: .25em;
   text-align: center;
   margin: 0em 0em 0.625em 0em
 }
 
 .page-title {
-    font-size: 2em;
-    margin-bottom: 2rem;
+    font-size: 1.95em;
+    text-align: center;
+    margin-bottom: 1.5rem;
     line-height: 1em;
     text-transform: uppercase;
-    font-family: Georgia, serif;
+    font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
     font-weight: 700;
-    color: #FF6127;
-    text-align: left
+    color: #12232d;
 }
 
 .ingredient-checklist-item {
@@ -73,26 +69,27 @@ img {
 }
 
 main {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 2em;
   border: .3em;
   border-radius: 15px 50px
 }
 
-
-dl {
-  margin-top: 1em;
-  margin-bottom: 2em
+dt {
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+  margin-top: 1.5em;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
+  color: #12232d;
+  text-align: left
 }
 
-dt {
-    font-size: 1em;
-    margin-bottom: 1rem;
-    line-height: 1em;
-    text-transform: uppercase;
-    font-family: Georgia, serif;
-    color: #FF6127;
-    text-align: left
+.summary {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5em;
+  border-bottom: 2px solid #8aacc1;
 }
 
 dd {
@@ -100,44 +97,38 @@ dd {
   margin-top: 1em
 }
 
-ol {
-  padding-left: 1em; /*default list value*/
-  margin-top: .5em
-}
-
 .page-section {
   display: block;
-  margin-bottom: .5em
 }
 
 @media (min-width: 48em) {
   body {
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 
-h2, h3 {
-  margin: 0em 0em 0.625em 0em;
+.page-section-title {
+  /*margin: 0em 0em 0.625em 0em;*/
+  margin-top: 0em;
   text-transform: uppercase;
-  font-weight: 500;
   line-height: 1;
-  font-family: Georgia, serif;
-  color: #FF6127;
+  font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
+  color: #12232d;
   text-align: left;
-  font-size: 1.875em;
+  font-size: 1.3em;
   clear: both;
-  border-bottom: 2px solid #e2e2e3;
   padding-bottom: .25em
 }
 
 ul {
   padding: 0 0 0 0;
-  margin: 0 0;
+  margin-bottom: 1.5em;
 }
 
-
-h3 { /*default list value*/
-  margin-top: 1em
+ol {
+  margin-left: 1em;
+  padding-left: 1em;
+  margin-top: .5em
 }
 
 figcaption {
@@ -150,36 +141,6 @@ p {
 }
 
 
-/*.meta-item {
-  display: inline-block;
-  padding: 0 0.75em 0 0.625em
-}
-*/
-/*li {
-  list-style: none;
-    list-style-position: outside;
-  list-style-image: none;
-  box-sizing: border-box
-}*/
-
-/*h1 {
-  font-size: 2em;
-  line-height: .8em;
-  text-transform: uppercase;
-  font-family: Georgia, serif;
-  color: #FF7F50;
-  text-align: center
-}*/
-
-/*.begin {
-  background-color: #FFFFFF;
-  margin: 1.5em;
-  margin-bottom: 1em;
-  border-radius: 25px;
-  padding: 20px;
-  width: 1000px;
-  height: 125px
-}*/
 
 
 /*h1 {
@@ -187,27 +148,6 @@ p {
   /*margin: 1.5em; /*positive or negative value*/
   /*margin-top: 1em;*/
   /*border: 3px solid #FF7F50}*/
-
-
-/*.center {
-  display: block;
-  margin: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5em;
-  width: 75%;
-  height: 75%
-}*/
-
-
-/* 1em = about 16 pixels*/
-/*font size/line height typeface*/
-
-
-/*ul {
-  padding-top: 1em;
-  padding-left: 1em
-}*/
 
 
 /*--breakpoint for wider screens--*/
